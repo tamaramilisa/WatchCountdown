@@ -14,6 +14,10 @@
 		320818FF23435B05006D693B /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320818FE23435B05006D693B /* InterfaceController.swift */; };
 		3208190123435B05006D693B /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3208190023435B05006D693B /* ExtensionDelegate.swift */; };
 		3208190323435B06006D693B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3208190223435B06006D693B /* Assets.xcassets */; };
+		3208191423437112006D693B /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3208191323437112006D693B /* Event.swift */; };
+		3208191623437145006D693B /* Events.json in Resources */ = {isa = PBXBuildFile; fileRef = 3208191523437145006D693B /* Events.json */; };
+		32081918234371A4006D693B /* EventRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32081917234371A4006D693B /* EventRowController.swift */; };
+		3208191A234371DF006D693B /* EventInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32081919234371DF006D693B /* EventInterfaceController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +73,10 @@
 		3208190023435B05006D693B /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		3208190223435B06006D693B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3208190423435B06006D693B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3208191323437112006D693B /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		3208191523437145006D693B /* Events.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Events.json; sourceTree = "<group>"; };
+		32081917234371A4006D693B /* EventRowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventRowController.swift; sourceTree = "<group>"; };
+		32081919234371DF006D693B /* EventInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventInterfaceController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,12 +122,24 @@
 		320818FD23435B05006D693B /* WatchCountdown WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				3208191223437104006D693B /* Database */,
 				320818FE23435B05006D693B /* InterfaceController.swift */,
 				3208190023435B05006D693B /* ExtensionDelegate.swift */,
 				3208190223435B06006D693B /* Assets.xcassets */,
 				3208190423435B06006D693B /* Info.plist */,
+				32081917234371A4006D693B /* EventRowController.swift */,
+				32081919234371DF006D693B /* EventInterfaceController.swift */,
 			);
 			path = "WatchCountdown WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		3208191223437104006D693B /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				3208191323437112006D693B /* Event.swift */,
+				3208191523437145006D693B /* Events.json */,
+			);
+			path = Database;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,6 +258,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3208191623437145006D693B /* Events.json in Resources */,
 				3208190323435B06006D693B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,7 +271,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3208190123435B05006D693B /* ExtensionDelegate.swift in Sources */,
+				32081918234371A4006D693B /* EventRowController.swift in Sources */,
+				3208191423437112006D693B /* Event.swift in Sources */,
 				320818FF23435B05006D693B /* InterfaceController.swift in Sources */,
+				3208191A234371DF006D693B /* EventInterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

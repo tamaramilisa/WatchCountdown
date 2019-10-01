@@ -1,8 +1,8 @@
 //
 //  ExtensionDelegate.swift
-//  WatchCountdown WatchKit Extension
+//  Watch Extension
 //
-//  Created by Tamara on 01/10/2019.
+//  Created by Tamara on 25/09/2019.
 //  Copyright © 2019 Tamara. All rights reserved.
 //
 

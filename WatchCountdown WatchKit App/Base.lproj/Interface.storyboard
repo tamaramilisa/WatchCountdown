@@ -2,7 +2,6 @@
 <document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="14868" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Dhy-MT-Akm">
     <device id="watch44"/>
     <dependencies>
-        <deployment identifier="watchOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="14643"/>
     </dependencies>
@@ -10,11 +9,11 @@
         <!--Watch-->
         <scene sceneID="0x3-8n-fLx">
             <objects>
-                <controller title="Watch" hidesWhenLoading="NO" id="Dhy-MT-Akm" customClass="InterfaceController" customModule="Watch_Extension">
+                <controller title="Watch" hidesWhenLoading="NO" id="Dhy-MT-Akm" customClass="InterfaceController" customModule="WatchCountdown_WatchKit_Extension">
                     <items>
                         <table alignment="left" id="VQo-Pu-Nng">
                             <items>
-                                <tableRow identifier="EventRow" id="HyU-PK-jwa" customClass="EventRowContoller" customModule="Watch_Extension">
+                                <tableRow identifier="EventRow" id="HyU-PK-jwa" customClass="EventRowController" customModule="WatchCountdown_WatchKit_Extension">
                                     <group key="rootItem" width="1" height="0.0" alignment="left" spacing="6" id="8CR-h4-Mi1">
                                         <items>
                                             <separator height="1" alignment="left" id="8F9-04-cW6">
@@ -65,7 +64,7 @@
         <!--Event-->
         <scene sceneID="5OR-In-U1X">
             <objects>
-                <controller identifier="Event" id="qAu-Zh-Q0n" customClass="EventInterfaceController" customModule="Watch_Extension">
+                <controller identifier="Event" id="qAu-Zh-Q0n" customClass="EventInterfaceController" customModule="WatchCountdown_WatchKit_Extension">
                     <items>
                         <imageView width="0.29999999999999999" height="0.29999999999999999" alignment="center" image="dayWhite" id="Tj4-fw-wFI">
                             <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
